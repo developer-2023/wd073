@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer {
+            width: 300px;
+            height: 50px;
+            background-color: aqua;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 10px solid lightseagreen;
+            padding: 10px;
+        }
+        .inner {
+            width: 100px;
+            height: 20px;
+            background-color: lightseagreen;
+            margin-top: -53px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            text-align: center;
+        }
+        .outer2 {
+            width: 300px;
+            height: 50px;
+            background-color: aqua;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 10px solid lightseagreen;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .to-left {
+            margin: 40px 10px;
+            padding: 10px;
+            width: 300px;
+            float: left;
+            border: 10px solid green;
+        }
+        .clear-float {
+            margin: 40px 10px;
+            padding: 10px;
+            width: 300px;
+            clear: both;
+            border: 10px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        OUTER DIV
+        <div class="inner">
+            INNER DIV
+        </div>
+    </div>
+    <div class="outer2">
+        OUTER DIV
+    </div>
+    <div class="to-left">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, explicabo.
+    </div>
+    <div class="to-left">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, explicabo.
+    </div>
+    <div class="clear-float">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, explicabo.
+    </div>
+</body>
+</html>
